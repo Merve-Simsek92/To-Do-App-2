@@ -38,3 +38,4 @@ function go(){
       text.classList.toggle("deneme")
     })
   }}
+  
