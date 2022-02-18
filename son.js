@@ -20,7 +20,7 @@ let checkList = document.querySelectorAll("input[type=checkbox]");
 // let spanbox=[span1,span2,span3,span4,span5,span6]
 checkList.forEach((item)=>{
     item.addEventListener("change", (e)=>{
-    
+        count++;
         console.log(item.parentElement.querySelector("span"));
         if (item.checked == true) {
             item.parentElement.querySelector("span").classList.toggle("deneme");

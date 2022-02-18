@@ -1,0 +1,73 @@
+.container{
+
+    
+    
+    color: orangered;
+    
+}
+body{background-color: orange;
+    margin: 0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#myInput{
+    height:35px ;
+    width: 346px;
+    font-size: 20px;
+    border-color: orangered;
+    outline: none;
+    margin-right: 0px;
+}
+.addBtn{
+    background-color:orangered;
+    color:aliceblue;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius:4px ;
+    margin-left: 0px;
+
+}
+.result{
+    
+    width: 40%;
+    height: 400px;
+    ;
+    background-color: antiquewhite;
+}
+h1{
+    color:orangered;
+}
+.deneme{
+text-decoration: line-through;
+}
+.deletebutton{
+    height: 30px;
+    width: 120px;
+    background-color: red;
+    color:white;
+    margin-left:10px;
+    padding-left:5px;
+    cursor:pointer;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+}
+.result{
+font-size: 20px;
+}
+.finishbutton{
+    padding-top: 5px;
+    text-align: center;
+    height: 30px;
+    width: 80px;
+    background-color: yellow;
+    color:white;
+    margin-left:10px;
+    padding-left:5px;
+    cursor:pointer;
+    display: inline-block;
+}
